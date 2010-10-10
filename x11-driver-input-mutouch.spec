@@ -1,6 +1,6 @@
 Name: x11-driver-input-mutouch
 Version: 1.2.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: X.org input driver for MicroTouch devices
 Group: System/X11
 URL: http://xorg.freedesktop.org
