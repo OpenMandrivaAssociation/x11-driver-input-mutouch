@@ -1,6 +1,6 @@
 Name: x11-driver-input-mutouch
 Version: 1.2.1
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: X.org input driver for MicroTouch devices
 Group: System/X11
 URL: http://xorg.freedesktop.org
@@ -12,6 +12,8 @@ BuildRequires: x11-proto-devel >= 1.0.0
 BuildRequires: x11-server-devel >= 1.0.1
 BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-server < 7.0
+
+Requires: x11-server-common %(xserver-sdk-abi-requires xinput)
 
 %description
 Mutouch is an X.org input driver for MicroTouch devices.
