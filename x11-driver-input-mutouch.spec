@@ -1,7 +1,7 @@
-%define gitdate 20110609
+%define gitdate %nil
 
 Name: x11-driver-input-mutouch
-Version: 1.2.99
+Version: 1.3.0
 Release: %mkrel 1%{?gitdate:.%{gitdate}}
 Summary: X.org input driver for MicroTouch devices
 Group: System/X11
