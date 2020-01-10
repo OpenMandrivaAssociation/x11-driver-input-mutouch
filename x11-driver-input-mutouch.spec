@@ -18,7 +18,7 @@ Mutouch is an X.org input driver for MicroTouch devices.
 
 %prep
 %setup -qn xf86-input-mutouch-%{version}
-%apply_patches
+%autopatch -p1
 autoreconf -fiv
 
 %build
